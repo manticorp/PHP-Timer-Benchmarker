@@ -34,7 +34,15 @@ $timer = new Timer(
 
 ### Options
 ```
-$timer->
+<?php
+$timer->setAccuracy(6)				// Sets accuracy of output
+    ->setPrintAllIterations(false)  // Whether to print EVERY iteration
+    ->setPrintTables(true)			// Whether to print the tables
+    ->setRelative(true)				// Whether checks should be relative to one another or not
+    ->setPrintSummary(true)			// Whether to print the summary
+    ->setBottomBar(true)			// Whether to print in place, or as a fixed bottom bar (requires the CSS)
+    ->start("Starting testing");	// Starts the timer
+?>
 ```
 
 ### Extended Examples:
