@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.manticorp-timing-container {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.manticorp-timing-container table {
+    border-collapse: collapse;
+    border: 3px solid #555;
+}
+.manticorp-timing-container tr:first-child td, .manticorp-timing-container tr:first-child th {
+    text-align: center;
+    border-bottom: 2px solid #555;
+}
+.manticorp-timing-container tr:first-child:hover td, .manticorp-timing-container tr:first-child:hover th {
+    background: #efefef;
+}
+.manticorp-timing-container tr:hover td, .manticorp-timing-container tr:hover th {
+    background: #ddd;
+}
+.manticorp-timing-container td, .manticorp-timing-container th {
+    padding: .4em 1em;
+    -webkit-transition: background .06s;
+    /* For Safari 3.1 to 6.0 */
+    
+    transition: background .06s;
+    border-left: 1px solid #555;
+}
+.manticorp-timing-container th {
+    text-align: right;
+    background: #efefef;
+}
+.manticorp-timing-container .manticorp-timing-time {
+    font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+}
+.manticorp-timing-container .manticorp-timing-title {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.6em;
+    display: block;
+    margin: .3em 0;
+    padding: .1em 0;
+}
+.manticorp-timing-container.manticorp-timing-bottom-bar {
+    font-size: 13px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: block;
+    overflow-y: hidden;
+    width: 100%;
+    max-height: 1.6em;
+    margin: 0;
+    padding: 4px 3px 0;
+    -webkit-transition: all .7s;
+    /* For Safari 3.1 to 6.0 */
+    
+    transition: all .7s;
+    color: #ddd;
+    border-top: 1px solid #c50;
+    background: #222;
+}
+.manticorp-timing-container.manticorp-timing-bottom-bar:hover {
+    overflow: scroll;
+    max-height: 640px;
+}
+.manticorp-timing-container.manticorp-timing-bottom-bar table {
+    color: white;
+    clear: both;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    padding-top: 1em;
+}
+.manticorp-timing-container.manticorp-timing-bottom-bar .manticorp-timing-overall-stats div {
+    display: block;
+    float: left;
+    padding-right: .5em;
+}
+.manticorp-timing-container.manticorp-timing-bottom-bar .manticorp-timing-overall-stats {
+    font-size: 1em;
+    display: block;
+    clear: both;
+    overflow: hidden;
+    width: 100%;
+    min-height: 1px;
+    margin-bottom: 1.2em;
+}
+.manticorp-timing-container.manticorp-timing-bottom-bar .manticorp-timing-title.manticorp-timing-title-summary {
+    display: none;
+}
+.manticorp-timing-container.manticorp-timing-bottom-bar .manticorp-timing-title {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    font-weight: 900;
+    display: block;
+    float: left;
+    margin: -1px .5em 0 1em;
+    margin: 0;
+    padding: 0;
+    padding: 0 .5em 0 1em;
+    color: #c50;
+}
+.manticorp-timing-container.manticorp-timing-bottom-bar tr:first-child td, .manticorp-timing-container tr:first-child th {
+    text-align: center;
+    border-bottom: 2px solid #444;
+}
+.manticorp-timing-container.manticorp-timing-bottom-bar tr:first-child:hover td, .manticorp-timing-container tr:first-child:hover th {
+    background: #222;
+}
+.manticorp-timing-container.manticorp-timing-bottom-bar td, .manticorp-timing-container th {
+    padding: .4em 1em;
+    -webkit-transition: background .06s;
+    /* For Safari 3.1 to 6.0 */
+    
+    transition: background .06s;
+    border-left: 1px solid #555;
+}
+.manticorp-timing-container.manticorp-timing-bottom-bar tr:hover td, .manticorp-timing-container tr:hover th {
+    color: white;
+    background: #111;
+}
+.manticorp-timing-container.manticorp-timing-bottom-bar th {
+    color: white;
+    text-align: right;
+    background: #333;
+}
