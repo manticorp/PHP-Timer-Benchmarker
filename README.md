@@ -15,13 +15,13 @@ A simple, high performance, easy to use PHP timer and benchmarking class.
 
 
 ### Include the stylesheet:
-```
+```html
 <link rel="stylesheet" type="text/css" href="timer.min.css" />
 
 ```
 
 ### Set up the timer
-```
+```php
 <?php
 include 'timer.php'.
 $timer = new Timer(
@@ -33,7 +33,7 @@ $timer = new Timer(
 ```
 
 ### Options
-```
+```php
 <?php
 $timer->setAccuracy(6)				// Sets accuracy of output
     ->setPrintAllIterations(false)  // Whether to print EVERY iteration
@@ -47,7 +47,7 @@ $timer->setAccuracy(6)				// Sets accuracy of output
 
 ### Extended Examples:
 
-```
+```php
 <?php
 
 include ('timer.php');
